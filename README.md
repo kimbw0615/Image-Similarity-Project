@@ -83,6 +83,8 @@ def crawling(page=1, category='001'):
    <image src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdWvmSt%2Fbtq8HUxeGbt%2FRYjh295Vsf1UTixT1xsKNk%2Fimg.png'>
    모델의 사진과 수집한 사진들의 유사성을 확인하기 위해 코사인 유사도 계산
 
+   ![seg](/image/seg.png)
+
 ```python
 # 이미지를 불러오고 특징 벡터로 변환하는 함수
 def image_to_feature_vector(image_path, model, device):

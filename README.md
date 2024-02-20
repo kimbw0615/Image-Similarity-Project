@@ -95,6 +95,12 @@ def crawling(page=1, category='001'):
 
 Segformer 모델은 HONG KONG University와 NVIDIA에서 2021년 10월에 발표한 모델입니다.  
 
+SegFormer의 주요 특징은  
+1. 다양한 Scale의 특징들을 활용할 수 있다.
+2. 학습 때 사용한 이미지의 해상도와 다른 크기의 이미지를 사용해도 성능 감소가 크지 않다.
+3. 간단한 구조의 Decoder와 Encoder의 여러 계층에서 얻어낸 특징들을 통합하여 사용한다.
+
+
 
    모델의 이미지 중 상의 이미지만 추출하기 위해 Segmentation 모델인 `SegFormer` 모델 사용
    

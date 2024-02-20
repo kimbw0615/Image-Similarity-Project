@@ -152,10 +152,6 @@ top_10_similar_images = sorted(image_similarity_scores, key=lambda x: x[1], reve
 ![비교](/image/image.png)
 ![비교사진](/image/image1.png)
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| - | - | - | - | - | - | - | - | - | - |
-|0.861 | 0.855 | 0.854 | 0.852 | 0.848 | 0.846 | 0.846 | 0.842 | 0.84 | 0.831 |
-
 
 ![RGB비교](/image/RGB_비교.png)
 

@@ -52,7 +52,18 @@ def crawling(page=1, category='001'):
     return df
 ```
 
+## 크롤링한 데이터
+
+![크롤링](/image/crawling_df.jpeg)
+
+## 수집한 데이터 RGB 분포
+
 ![EDA](/image/EDA.png)
+
+
+## RGB에 대한 기술통계량
+
+![RGB_EDA](/image/RGB_EDA.jpeg)
 
 3. 사용한 딥러닝 모델 설명
    - 사용한 딥러닝 모델의 구조, 기법 등에 대한 간단한 소개.

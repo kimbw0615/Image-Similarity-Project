@@ -141,7 +141,7 @@ top_10_similar_images = sorted(image_similarity_scores, key=lambda x: x[1], reve
 	 - 학습 과정 설명
 		- 데이터 분할 및 학습, 검증, 테스트 데이터 세트 설명
 		- 학습 알고리즘 및 최적화 방법 설명
-		Segformer와 ResNet 모델을 PyTorch 프레임워크를 사용하여 학습
+		Segformer와 ResNet 모델을 PyTorch 프레임워크를 사용하여 학습되어 있는 모델을 사용.
 
 	- 학습 결과
 		- 모델의 성능 지표 (정확도, 손실 등) 및 평가 결과

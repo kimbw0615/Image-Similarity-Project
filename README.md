@@ -52,6 +52,8 @@ def crawling(page=1, category='001'):
     return df
 ```
 
+![EDA](/image/EDA.png)
+
 3. 사용한 딥러닝 모델 설명
    - 사용한 딥러닝 모델의 구조, 기법 등에 대한 간단한 소개.
      	사용한 모델 : `Segformer`, `ResNet`
@@ -140,6 +142,7 @@ top_10_similar_images = sorted(image_similarity_scores, key=lambda x: x[1], reve
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | - | - | - | - | - | - | - | - | - | - |
 |0.861 | 0.855 | 0.854 | 0.852 | 0.848 | 0.846 | 0.846 | 0.842 | 0.84 | 0.831 |
+
 
 - 모델 개선 노력:
 	- 모델 성능 향상을 위해 어떤 시도를 했는지

@@ -68,10 +68,10 @@ def crawling(page=1, category='001'):
 이를 해결할 수 있는 다양한 방법들이 있다.  
 
 ![랭킹](/image/ranking_price.jpeg)
+<image src='https://image.msscdn.net/images/goods_img/20230330/3192375/3192375_16843739731826_500.jpg' width='30%'>
 
 가격별 상위, 하위 5개 데이터입니다.
 
-<image src='https://image.msscdn.net/images/goods_img/20230330/3192375/3192375_16843739731826_500.jpg' width='30%'>
 
 
 

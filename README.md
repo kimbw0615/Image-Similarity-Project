@@ -115,7 +115,8 @@ SegFormer의 주요 특징은
 3. 간단한 구조의 Decoder와 Encoder의 여러 계층에서 얻어낸 특징들을 통합하여 사용한다.
 
 <image src='https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/segformer_architecture.png'>
-
+<image src='https://velog.velcdn.com/images/pre_f_86/post/e1de321a-2429-4f47-ace4-ed5be002b87d/image.PNG'>
+	
 SegFormer 구조  
 1. 입력 이미지에 대해 4 × 4크기의 패치로 나눕니다.   
 2. 계층적 구조의 Encoder에 넣어 원본 이미지 크기의 {1/4, 1/8, 1/16, 1/32}의 특징맵을 얻어냅니다.  

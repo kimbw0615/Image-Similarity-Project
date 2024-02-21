@@ -95,16 +95,16 @@ def crawling(page=1, category='001'):
 
 # **3. 사용한 딥러닝 모델 설명**
    - 사용한 딥러닝 모델의 구조, 기법 등에 대한 간단한 소개.
-     	사용한 모델 : `Segformer`, `ResNet`
+     	사용한 모델 : `SegFormer`, `ResNet`
 
-   - Segformer  
+   - SegFormer  
      transformer 기반의 세그멘테이션 모델
      의상 분할을 위해 이미지의 픽셀 수준에서 의류 영역을 식별하고 분할
 
    - ResNet  
      CNN(컨폴루션 뉴럴 네트워크) 구조이며, 이미지 특징을 추출하기 위해 사용
 
-### Segformer  
+### SegFormer  
 모델의 이미지 중 상의 이미지만 추출하기 위해 Segmentation 모델인 `SegFormer` 모델 사용  
 
 SegFormer 모델은 HONG KONG University와 NVIDIA에서 2021년 10월에 발표한 모델입니다.  
@@ -114,7 +114,7 @@ SegFormer의 주요 특징은
 2. 학습 때 사용한 이미지의 해상도와 다른 크기의 이미지를 사용해도 성능 감소가 크지 않다.
 3. 간단한 구조의 Decoder와 Encoder의 여러 계층에서 얻어낸 특징들을 통합하여 사용한다.
 
-<image src='https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/segformer_architecture.png'>
+<image src='https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/SegFormer_architecture.png'>
 
 SegFormer 구조  
 1. 입력 이미지에 대해 4 × 4크기의 패치로 나눕니다.   
@@ -148,9 +148,9 @@ bag            16
 scarf          17
 ```
 
-<image src='https://github.com/hugozanini/segformer-clothes-tfjs/raw/main/git-media/segformer-demo.gif?raw=true'>
+<image src='https://github.com/hugozanini/SegFormer-clothes-tfjs/raw/main/git-media/SegFormer-demo.gif?raw=true'>
 
-> SegFormer 예시 (https://github.com/hugozanini/segformer-clothes-tfjs)
+> SegFormer 예시 (https://github.com/hugozanini/SegFormer-clothes-tfjs)
 
 ## 상의 옷 분리하기
 
@@ -239,7 +239,7 @@ top_10_similar_images = sorted(image_similarity_scores, key=lambda x: x[1], reve
 ## 학습 과정 설명
 - 데이터 분할 및 학습, 검증, 테스트 데이터 세트 설명
 - 학습 알고리즘 및 최적화 방법 설명
-	Segformer와 ResNet 모델을 PyTorch 프레임워크를 사용하여 학습되어 있는 모델을 사용.
+	SegFormer와 ResNet 모델을 PyTorch 프레임워크를 사용하여 학습되어 있는 모델을 사용.
 
 ## 학습 결과
 - 모델의 성능 지표 (정확도, 손실 등) 및 평가 결과

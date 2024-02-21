@@ -68,9 +68,14 @@ def crawling(page=1, category='001'):
 이를 해결할 수 있는 다양한 방법들이 있다.  
 
 ![랭킹](./image/rank_price.jpeg)
+
+<details><summary>접기
+</summary>
 <image src='https://image.msscdn.net/images/goods_img/20230330/3192375/3192375_16843739731826_500.jpg' width='20%'>
 <image src='https://image.msscdn.net/images/goods_img/20230420/3249728/3249728_16921646175358_500.jpg' width='20%'>
 <image src='https://image.msscdn.net/images/goods_img/20210512/1947862/1947862_1_500.jpg' width='20%'>
+</details>
+
  
 
 ![랭킹그래프](./image/rank_graph.png)

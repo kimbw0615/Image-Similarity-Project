@@ -126,6 +126,8 @@ SegFormer 구조
 
 ATR(Active Template Regression) dataset for clothes segmentation으로 학습된 SegFormer B2 모델을 이용했습니다.  
 
+<image src='https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/raw/master/Figures/Fig1.png'>
+
 ```
 17,706개의 패션 이미지와 마스크 쌍의 데이터
 

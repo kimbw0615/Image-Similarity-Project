@@ -114,7 +114,7 @@ SegFormer의 주요 특징은
 2. 학습 때 사용한 이미지의 해상도와 다른 크기의 이미지를 사용해도 성능 감소가 크지 않다.
 3. 간단한 구조의 Decoder와 Encoder의 여러 계층에서 얻어낸 특징들을 통합하여 사용한다.
 
-<image src='https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/SegFormer_architecture.png'>
+<image src='https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/segformer_architecture.png'>
 
 SegFormer 구조  
 1. 입력 이미지에 대해 4 × 4크기의 패치로 나눕니다.   
@@ -148,7 +148,7 @@ bag            16
 scarf          17
 ```
 
-<image src='https://github.com/hugozanini/SegFormer-clothes-tfjs/raw/main/git-media/SegFormer-demo.gif?raw=true'>
+<image src='https://github.com/hugozanini/segformer-clothes-tfjs/raw/main/git-media/segformer-demo.gif?raw=true'>
 
 > SegFormer 예시 (https://github.com/hugozanini/SegFormer-clothes-tfjs)
 

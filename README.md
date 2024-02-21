@@ -67,6 +67,14 @@ def crawling(page=1, category='001'):
 실시간 또는 주기적으로 수집이 이루어질 경우, 중복 데이터가 발생할 수 있다.  
 이를 해결할 수 있는 다양한 방법들이 있다.  
 
+![랭킹](/image/ranking_price.jpeg)
+
+가격별 상위, 하위 5개 데이터입니다.
+
+<image src='https://image.msscdn.net/images/goods_img/20230330/3192375/3192375_16843739731826_500.jpg' width='30%'>
+
+
+
 ## 수집한 데이터 RGB 분포
 
 ![EDA](/image/EDA.png)

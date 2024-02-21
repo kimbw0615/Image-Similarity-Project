@@ -61,16 +61,18 @@ def crawling(page=1, category='001'):
 
 ## 크롤링한 데이터
 
-![크롤링](/image/crawling_df.jpeg)
+![크롤링](./image/crawling_df.jpeg)
 
 이미지, 주소, 제품명, 브랜드, 최종가격을 수집하였다.  
 실시간 또는 주기적으로 수집이 이루어질 경우, 중복 데이터가 발생할 수 있다.  
 이를 해결할 수 있는 다양한 방법들이 있다.  
 
-![랭킹](/image/ranking_price.jpeg)
-<image src='https://image.msscdn.net/images/goods_img/20230330/3192375/3192375_16843739731826_500.jpg' width='30%'>
+![랭킹](./image/ranking_price.jpeg)
+<image src='https://image.msscdn.net/images/goods_img/20230330/3192375/3192375_16843739731826_500.jpg' width='27.1%'>
 
-가격별 상위, 하위 5개 데이터입니다.
+![랭킹그래프](./image/rank_graph.png)
+
+브랜드별 가격 상위, 하위 5개 데이터와 그래프입니다. 
 
 
 
@@ -149,7 +151,7 @@ scarf          17
 
 ## 상의 옷 분리하기
 
-![seg](/image/seg.png)
+![seg](./image/seg.png)
 
 학습된 `SegFormer` 모델을 불러온 후 이미지를 적용한 결과입니다.
 
@@ -240,17 +242,17 @@ top_10_similar_images = sorted(image_similarity_scores, key=lambda x: x[1], reve
 - 모델의 성능 지표 (정확도, 손실 등) 및 평가 결과
 - 결과를 통해 얻은 통찰 혹은 해석
 
-![비교이미지](/image/image1.png)
-![비교](/image/image.png)
+![비교이미지](./image/image1.png)
+![비교](./image/image.png)
 ___
-![RGB비교](/image/RGB_비교.png)
+![RGB비교](./image/RGB_비교.png)
 
 
 색깔 또는 패턴을 잘 찾는 것으로 보인다.  
 극단값을 제외하면 비교된 이미지의 RGB 분포와 비슷한 모양을 보인다.  
 
-![비교이미지](/image/image3.png)
-![비교](/image/image4.png)
+![비교이미지](./image/image3.png)
+![비교](./image/image4.png)
 
 후드티나 옷에 있는 로고들도 잘 찾는 것으로 보인다.  
 
